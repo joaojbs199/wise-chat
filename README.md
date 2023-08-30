@@ -1,34 +1,84 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Wise Chat 🧠💬
 
-## Getting Started
+O **Wise Chat** é uma ferramenta de chat baseada em inteligência artificial que fornece respostas inspiradoras e perspicazes para perguntas relacionadas ao desenvolvimento pessoal e profissional. Este projeto utiliza a API da OpenAI e o Langchain para gerar respostas com base em dados próprios carregados no banco de dados Supabase. É uma maneira inovadora de buscar orientação e sabedoria de grandes pensadores e autores famosos.
 
-First, run the development server:
+## Funcionalidades 🚀
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- **Respostas inspiradoras:** O Wise Chat gera respostas que incluem citações de autores renomados e grandes pensadores, proporcionando insights valiosos.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Dados Próprios Personalizados:** Utilizamos o banco de dados Supabase para armazenar e acessar nossos próprios dados, garantindo respostas únicas e relevantes.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Citações Inspiradoras:** Enriqueça suas conversas com citações de autores famosos e pensadores notáveis, proporcionando insights valiosos.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Tecnologias Utilizadas 🛠️
 
-## Learn More
+- **Framework:** Next.js
+- **Linguagem:** TypeScript
+- **UI:** Lucide React, Tailwind CSS, ShadCN-UI
 
-To learn more about Next.js, take a look at the following resources:
+## Bibliotecas Principais 📚
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Next.js:** O Next.js é um framework React que facilita a construção de aplicativos web rápidos e escaláveis. [npm](https://www.npmjs.com/package/next)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **TypeScript:** TypeScript é uma linguagem que adiciona tipagem estática ao JavaScript, tornando o código mais seguro e legível. [npm](https://www.npmjs.com/package/typescript)
 
-## Deploy on Vercel
+- **Lucide React:** Lucide React fornece um conjunto de ícones SVG personalizáveis para melhorar a experiência do usuário. [npm](https://www.npmjs.com/package/lucide-react)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **@supabase/supabase-js:** A biblioteca Supabase JS é usada para interagir com o banco de dados Supabase e carregar dados personalizados. [npm](https://www.npmjs.com/package/@supabase/supabase-js)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **OpenAI:** A OpenAI fornece uma API poderosa para integrar inteligência artificial em aplicativos, permitindo respostas inteligentes e contextuais. [npm](https://www.npmjs.com/package/openai)
+
+- **Langchain:** O Langchain é usado para melhorar a coerência e a qualidade das respostas geradas pela inteligência artificial. [npm](https://www.npmjs.com/package/langchain)
+
+- **Tailwind CSS:** Tailwind CSS é um framework CSS utilitário que facilita a estilização de interfaces de maneira eficiente. [npm](https://www.npmjs.com/package/tailwindcss)
+
+- **ShadCN-UI:** ShadCN-UI oferece componentes de interface do usuário que podem ser personalizados para criar uma experiência atraente. [npm](https://www.npmjs.com/package/shadcn-ui)
+
+## Instalação
+
+Siga estas etapas simples para configurar o Wise Chat em seu ambiente:
+
+1. Clone este repositório:
+
+   ```shell
+   git clone https://github.com/seu-usuario/wise-chat.git
+   ```
+
+2. Navegue até o diretório do projeto:
+
+   ```shell
+   cd wise-chat
+   ```
+
+3. Instale as dependências usando npm ou yarn:
+
+   ```shell
+   npm install
+   # ou
+   yarn install
+   ```
+
+4. Inicie o servidor de desenvolvimento:
+
+   ```shell
+   npm run dev
+   # ou
+   yarn dev
+   ```
+
+5. Acesse o Wise Chat em seu navegador:
+
+   ```
+   http://localhost:3000
+   ```
+## Contribuição 🤝
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issues) e enviar solicitações de pull (pull requests) para melhorar este projeto. Juntos, podemos tornar o Wise Chat ainda mais sábio e inspirador!
+
+## Licença 📜
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
+
+---
+
+Sinta-se à vontade para adicionar qualquer outra informação relevante ou instruções específicas de configuração e uso do seu projeto no README.md. Lembre-se de manter este arquivo atualizado à medida que o projeto evolui. Boa sorte com o seu projeto Wise Chat! 🧠💬🚀
